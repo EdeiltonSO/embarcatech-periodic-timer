@@ -1,4 +1,4 @@
-# Utilizando interrupções para gerenciar um semáforo com o RP2040
+# Utilizando temporização periódica para gerenciar um semáforo com o RP2040
 
 ## Sumário
 
@@ -12,7 +12,7 @@
 
 ## 1. 💡 O que é este projeto
 
-Este é um firmware escrito em C que utiliza o recurso de interrupções do RP2040 para controlar um semáforo. As cores mudam de acordo com o tempo especificado em uma das macros.
+Este é um firmware escrito em C que utiliza o recurso de temporização periódica do RP2040 para controlar um semáforo. As cores mudam de acordo com o tempo especificado em uma das macros.
 
 ## 2. ⚡ Diagrama do hardware
 
