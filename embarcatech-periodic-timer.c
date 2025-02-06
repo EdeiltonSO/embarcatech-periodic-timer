@@ -73,7 +73,7 @@ int main() {
 
     while (true) {
         sleep_ms(1000);
-        printf("Semáforo em funcionamento!");
+        printf("Semáforo em funcionamento!\n");
     }
 
     return 0;
