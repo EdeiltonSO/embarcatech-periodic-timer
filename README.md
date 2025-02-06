@@ -77,14 +77,16 @@ Com os pré-requisitos atendidos, siga os passos a seguir:
 
 3. Pressione e segure o botão `BOOTSEL` no Raspberry Pi Pico W;
 
-4. Pressione o botão `RESET` na BitDogLab e solte-o ao mesmo tempo em que solta o botão `BOOTSEL` pressionado desde o passo 3;
+4. Pressione o botão `RESET` na BitDogLab;
 
-5. Conecte a placa ao computador via USB;
+5. Solte os botões dos passos 3 e 4;
 
-6. Pressione o botão "Run" na barra inferior do VS Code.
+6. Conecte a placa ao computador via USB;
+
+7. Pressione o botão "Run" na barra inferior do VS Code.
 
 Após a transferência, a placa reiniciará com o programa em execução.
 
 Observação:
 
-- Como alternativa ao passo 6, é possível transferir o arquivo `.uf2` presente na pasta `build` para o armazenamento da placa.
+- Como alternativa ao passo 7, é possível transferir o arquivo `.uf2` presente na pasta `build` para o armazenamento da placa.
