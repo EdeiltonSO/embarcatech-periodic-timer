@@ -72,6 +72,8 @@ int main() {
     add_repeating_timer_ms(STATUS_TIME_MS, repeating_timer_callback, NULL, &timer);
 
     while (true) {
+        sleep_ms(1000);
+        printf("Semáforo em funcionamento!");
     }
 
     return 0;

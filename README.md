@@ -33,7 +33,11 @@ Ao iniciar a placa, o semáforo acende em vermelho e muda de cor a cada 3 segund
 `VERMELHO` > `AMARELO` > `VERDE`
 
 Após 3 segundos no estado verde, o semáforo sempre volta para o vermelho e o ciclo recomeça.
-Caso haja algum erro que o faça sair desse ciclo, o semáforo se apaga até que o sistema seja reiniciado.
+
+Observações:
+
+- Caso haja algum erro que o faça sair desse ciclo, o semáforo se apaga até que o sistema seja reiniciado.
+- O firmware também imprime uma mensagem na saída serial a cada segundo indicando o funcionamento do semáforo.
 
 ## 5. 🧰 Pré-requisitos para executar
 
