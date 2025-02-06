@@ -10,6 +10,8 @@
 #define YELLOW_STATUS 1
 #define GREEN_STATUS  2
 
+#define STATUS_TIME_MS 3000
+
 bool traffic_light_timer_callback(struct repeating_timer *t) {
     // inicia na segunda cor, pois a primeira já foi acesa no começo
     static uint8_t light_status = YELLOW_STATUS;
@@ -66,8 +68,8 @@ int main() {
 
     struct repeating_timer timer;
 
-    // depois de 3 segundos, chama a próxima cor
-    add_repeating_timer_ms(3000, traffic_light_timer_callback, NULL, &timer);
+    // depois de STATUS_TIME_MS milissgundos, chama a próxima cor
+    add_repeating_timer_ms(STATUS_TIME_MS, traffic_light_timer_callback, NULL, &timer);
 
     while (true) {
     }
